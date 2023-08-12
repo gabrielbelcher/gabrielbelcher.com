@@ -10,8 +10,8 @@
             "Express"
         ],
         "date": "2023",
-        "mediapath": "../src/assets/video/uno.mp4",
-        "titlegraphic": "../src/assets/logo/uno.png",
+        "mediapath": "public/video/uno.mp4",
+        "titlegraphic": "public/logo/uno.png",
         "url": "https://uno-online.onrender.com/",
         "github": "https://github.com/gabrielbelcher/uno-online"
     },
@@ -25,8 +25,8 @@
             "SolidJS"
         ],
         "date": "2023",
-        "mediapath": "../src/assets/video/mediasync.mp4",
-        "titlegraphic": "../src/assets/logo/mediasync.png",
+        "mediapath": "public/video/mediasync.mp4",
+        "titlegraphic": "public/logo/mediasync.png",
         "url": "https://getmediasync.com/",
         "github": "https://github.com/zaccnz/mediasync"
     },    
@@ -40,7 +40,7 @@
             "TensorFlow"
         ],
         "date": "2022",
-        "mediapath": "../src/assets/video/sheep.mp4",
+        "mediapath": "public/video/sheep.mp4",
         "url": "",
         "github": "https://github.com/gabrielbelcher/sheep-identification-project"
     }

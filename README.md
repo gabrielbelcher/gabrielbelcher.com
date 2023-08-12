@@ -1,5 +1,5 @@
 <p align="center">
- <img width="10%" src="./src//assets//signature.svg">
+ <img width="20%" src="./src//assets//signature.svg">
 </p>
 
 <p align="center">
