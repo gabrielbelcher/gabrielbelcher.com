@@ -39,6 +39,7 @@ nav{
 
 .heading{
     align-self: center;
+    text-align: center;
 }
 
 .projects{
@@ -57,4 +58,14 @@ nav{
 
 .icon{
     margin-top:5px;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .projects{
+        height:45%;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom:30px;
+    }
 }

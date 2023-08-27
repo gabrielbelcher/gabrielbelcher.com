@@ -36,9 +36,9 @@ export default function Project({ title, projects } : Props) {
     return (
         project &&
         <motion.div
-            initial={{opacity: 0, x: 20}}
-            animate={{opacity: 1, x: 0}}
-            exit={{opacity: 0, x: 20}}
+            initial={{opacity: 0}}
+            animate={{opacity: 1}}
+            exit={{opacity: 0}}
             transition={{ duration: 0.3, ease: "easeInOut"}}
             
             className={styles.projectWrapper}
@@ -49,7 +49,13 @@ export default function Project({ title, projects } : Props) {
 
             <ProjectMedia mediaUrl={project.mediapath} />
             
-            <div className={styles.descriptionWrapper}>
+            <motion.div 
+                initial={{x: 40}}
+                animate={{x: 0}}
+                exit={{x: 40}}
+                transition={{ duration: 0.3, ease: "easeInOut"}}
+            
+                className={styles.descriptionWrapper}>
                 <motion.div 
                     initial={{opacity: 0, x: 40}}
                     animate={{opacity: 1, x: 0, transition: {delay: 0.1,ease: "easeInOut"}}}
@@ -88,7 +94,7 @@ export default function Project({ title, projects } : Props) {
                         <p className={styles.descriptionText}>{project.description}</p>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </motion.div>
     )
 }

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import projectJSON from './assets/project-data.json';
 import Layout from './components/Layout';
 import Home from './routes/Home';
@@ -25,7 +25,7 @@ function App() {
 	}, []);
 
 
-	const router = createBrowserRouter([ // Use createBrowserRouter when not using github pages
+	const router = createHashRouter([ 
 		{
 			element: <Layout />,
 			errorElement: <h1>error :'(</h1>,

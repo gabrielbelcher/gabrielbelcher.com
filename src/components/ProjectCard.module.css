@@ -4,6 +4,8 @@
     justify-content: center;
     align-items: flex-start;
 
+    text-align: left;
+
     background-color: var(--background-color);
 
     padding:1.5%;
@@ -25,3 +27,11 @@ img{
     width:55%;
 }
 
+@media only screen and (max-width: 800px) {
+    .card{
+        padding:4%;
+    }
+    .card h1{
+        font-size: 1.3rem;
+    }
+}
